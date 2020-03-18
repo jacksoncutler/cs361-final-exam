@@ -13,9 +13,9 @@ roll_pack = RollPack.new
 
 bikes = [
   BmxBike.new(tail_pack),
-  RoadBike.new(roll_pack),
-  MountainBike.new,
-  MountainBike.new
+  RoadBike.new,
+  MountainBike.new(roll_pack),
+  MountainBike.new(roll_pack)
 ]
 
 total_price = 0
