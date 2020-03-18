@@ -10,7 +10,7 @@ class BmxBike
   end
 
   def get_weekly_cost
-    @weekly_cost + @tail_pack.price
+    @weekly_price + @tail_pack.cost
   end
 
   def clean
