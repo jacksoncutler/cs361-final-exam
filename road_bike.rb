@@ -2,13 +2,13 @@ require_relative 'pannier'
 
 class RoadBike
 
-  def initialize(panniers)
+  def initialize(panniers, panniers_cost)
     @panniers = panniers
     @daily_rate = 15
   end
 
   def get_weekly_cost
-    @daily_rate * 7 + panniers[0].price + panniers[1].price
+    @daily_rate * 7 + panniers_cost
   end
 
   def clean
