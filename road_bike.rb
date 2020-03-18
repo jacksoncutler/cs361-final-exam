@@ -10,7 +10,7 @@ class RoadBike < Bike
   end
 
   def bike_cost
-    @daily_rate
+    @daily_rate * 7
   end
 
   def luggage_cost
