@@ -2,7 +2,7 @@ require_relative 'tail_pack'
 
 class BmxBike
 
-  def initialize(tail_pack)
+  def initialize(tail_pack, tail_pack_price)
     @tail_pack = tail_pack
     @weekly_price = 70
     @daily_price = 20
@@ -10,7 +10,7 @@ class BmxBike
   end
 
   def get_weekly_cost
-    @weekly_price + @tail_pack.cost
+    @weekly_price + @tail_pack_price
   end
 
   def clean
