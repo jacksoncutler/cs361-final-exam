@@ -2,7 +2,7 @@ require_relative 'roll_pack'
 
 class MountainBike
 
-  def initialize(roll_pack)
+  def initialize(roll_pack, roll_pack_price)
     @luggage = roll_pack
     @weekly_rate = 90
     @daily_rate = 25
@@ -10,7 +10,7 @@ class MountainBike
   end
 
   def get_weekly_cost
-    @weekly_rate + @luggage.price
+    @weekly_rate + @roll_pack_price
   end
 
   def clean
