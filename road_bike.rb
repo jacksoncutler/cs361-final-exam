@@ -1,6 +1,7 @@
+require_relative 'bike'
 require_relative 'pannier'
 
-class RoadBike
+class RoadBike < Bike
 
   def initialize(panniers, panniers_cost)
     @panniers = panniers
@@ -8,8 +9,12 @@ class RoadBike
     @daily_rate = 15
   end
 
-  def get_weekly_cost
-    @daily_rate * 7 + @panniers_cost
+  def bike_cost
+    @daily_rate
+  end
+
+  def luggage_cost
+    @panniers_cost
   end
 
   def clean
