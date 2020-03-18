@@ -1,6 +1,6 @@
 
 
-class Pannier
+class Pannier < Luggage
 
   include Luggage
 

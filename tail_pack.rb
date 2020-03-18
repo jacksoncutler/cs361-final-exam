@@ -1,4 +1,4 @@
-class TailPack
+class TailPack < Luggage
 
 def initialize
   @cost = 2 # Flat rate per rental

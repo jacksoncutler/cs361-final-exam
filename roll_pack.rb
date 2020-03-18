@@ -1,4 +1,4 @@
-class RollPack
+class RollPack < Luggage
   # Set price
   def initialize
   @cost = 1 # Flat rate per rental
