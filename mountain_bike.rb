@@ -9,6 +9,10 @@ class MountainBike
     @hourly_rate = 10
   end
 
+  def get_weekly_cost
+    @weekly_rate + @luggage.price
+  end
+
   def clean
     puts "Cleaning..."
   end
