@@ -9,6 +9,10 @@ class BmxBike
     @hourly_price = 5
   end
 
+  def get_weekly_cost
+    @weekly_cost + @tail_pack.price
+  end
+
   def clean
     puts "Cleaning..."
   end
