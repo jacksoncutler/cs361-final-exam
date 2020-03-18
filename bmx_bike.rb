@@ -4,6 +4,7 @@ class BmxBike
 
   def initialize(tail_pack, tail_pack_price)
     @tail_pack = tail_pack
+    @tail_pack_price = tail_pack_price
     @weekly_price = 70
     @daily_price = 20
     @hourly_price = 5

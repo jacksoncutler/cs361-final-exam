@@ -4,6 +4,7 @@ class MountainBike
 
   def initialize(roll_pack, roll_pack_price)
     @luggage = roll_pack
+    @roll_pack_price = roll_pack_price
     @weekly_rate = 90
     @daily_rate = 25
     @hourly_rate = 10

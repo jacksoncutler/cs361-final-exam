@@ -4,6 +4,7 @@ class RoadBike
 
   def initialize(panniers, panniers_cost)
     @panniers = panniers
+    @panniers_cost = panniers_cost
     @daily_rate = 15
   end
 
