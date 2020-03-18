@@ -1,3 +1,5 @@
+require_relative 'luggage'
+
 class TailPack < Luggage
 
 def initialize

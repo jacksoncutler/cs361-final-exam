@@ -1,3 +1,5 @@
+require_relative 'luggage'
+
 class RollPack < Luggage
   # Set price
   def initialize

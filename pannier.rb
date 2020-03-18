@@ -1,8 +1,6 @@
-
+require_relative 'luggage'
 
 class Pannier < Luggage
-
-  include Luggage
 
   def initialize
     @cost = 3 # Set price. Flat rate per rental

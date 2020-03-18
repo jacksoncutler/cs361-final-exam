@@ -10,8 +10,12 @@ class BmxBike
     @hourly_price = 5
   end
 
-  def get_weekly_cost
-    @weekly_price + @tail_pack_price
+  def bike_cost
+    @weekly_price
+  end
+
+  def luggage_cost
+    @tail_pack_price
   end
 
   def clean
