@@ -9,7 +9,7 @@ class RoadBike
   end
 
   def get_weekly_cost
-    @daily_rate * 7 + panniers_cost
+    @daily_rate * 7 + @panniers_cost
   end
 
   def clean

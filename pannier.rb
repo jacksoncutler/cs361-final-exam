@@ -2,14 +2,16 @@
 
 class Pannier
 
+  include Luggage
+
   def initialize
-    @price = 3 # Set price. Flat rate per rental
+    @cost = 3 # Set price. Flat rate per rental
   end
 
 
   # Get price
-  def price
-    @price
+  def cost
+    @cost
   end
 
   end

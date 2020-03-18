@@ -11,11 +11,11 @@ require_relative 'roll_pack'
 require_relative 'pannier'
 
 tail_pack = TailPack.new
-tail_pack_price = tail_pack.cost
+tail_pack_price = tail_pack.get_price
 roll_pack = RollPack.new
-roll_pack_price = roll_pack.price
+roll_pack_price = roll_pack.get_price
 panniers = [Pannier.new, Pannier.new]
-panniers_cost = panniers[0].price + panniers[1].price
+panniers_cost = panniers[0].get_price + panniers[1].get_price
 
 bikes = [
   BmxBike.new(tail_pack, tail_pack_price),
